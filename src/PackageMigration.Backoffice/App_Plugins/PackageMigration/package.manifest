@@ -1,0 +1,17 @@
+{
+  "id": "PackageMigration",
+  "name": "PackageMigration",
+  "allowPackageTelemetry": true,
+  "dashboards": [
+    {
+      "alias": "packageMigrationDashboard",
+      "view": "/App_Plugins/PackageMigration/WelcomeDashboard.html",
+      "sections": [ "content" ],
+      "weight": -10,
+      "access": [
+        { "deny": "translator" },
+        { "grant": "admin" }
+      ]
+    }
+  ]
+}
